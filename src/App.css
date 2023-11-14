@@ -1,0 +1,48 @@
+:root {
+  --primary-50: #c175fc;
+  --primary-100: #ac47fb;
+  --primary-200: #9819fa;
+  --primary-300: #8005df;
+  --primary-400: #6504b1;
+  --primary-500: #000;
+  --primary-600: #430376;
+  --primary-700: #3c0269;
+  --primary-800: #35025c;
+  --primary-900: #2d024f;
+
+  --second-50: #fce298;
+  --second-100: #fbd975;
+  --second-200: #facf53;
+  --second-300: #f8c631;
+  --second-400: #f7bc0e;
+  --second-500: #ffffff;
+  --second-600: #c59506;
+  --second-700: #af8406;
+  --second-800: #997405;
+  --second-900: #836304;
+
+  --neutro-500: #d5eaee;
+}
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"); */
+
+body {
+  font-family: "Roboto", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
+}
+
+.App {
+  text-align: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

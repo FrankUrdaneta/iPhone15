@@ -1,0 +1,40 @@
+.portada_w {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  background-color: var(--secondary-500);
+  min-height: 100vh;
+}
+
+.nuevocionante {
+  font-size: 44px;
+  line-height: 1.0909090909;
+  font-weight: 600;
+  letter-spacing: -0.002em;
+  color: #1d1d1f;
+}
+
+.consulw {
+  color: #6e6e73;
+  font-size: 21px;
+  line-height: 1.381002381;
+  font-weight: 400;
+  letter-spacing: 0.011em;
+  margin-top: 17px;
+}
+
+.iphw img {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .portada_w {
+    min-height: 80vh;
+  }
+}
